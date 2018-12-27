@@ -20,7 +20,7 @@ public class Password_Page {
 		 
 		    }
 	 
-	 //"Next" button in the Password page to Login
+	 // "Next" button in the Password page to Login
 	 public static WebElement nextButtonPassword(WebDriver driver){
 		 
 		    element = driver.findElement(By.id("passwordNext"));
