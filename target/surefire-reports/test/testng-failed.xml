@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Kaplan_Coding_Assignment(failed)" verbose="0">
+    <classes>
+      <class name="test.MainTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="gmailLogin" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- test.MainTest -->
+    </classes>
+  </test> <!-- Kaplan_Coding_Assignment(failed) -->
+</suite> <!-- Failed suite [test] -->

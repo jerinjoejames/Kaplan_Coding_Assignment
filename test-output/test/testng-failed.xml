@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="katalantest(failed)">
+    <classes>
+      <class name="test.NewTest1">
+        <methods>
+          <include name="main"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- test.NewTest1 -->
+    </classes>
+  </test> <!-- katalantest(failed) -->
+</suite> <!-- Failed suite [test] -->

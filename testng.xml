@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test">
+ <test name="Kaplan_Coding_Assignment">
+ <classes>
+ <class name="test.MainTest" />
+ </classes>
+ </test>
+</suite>
